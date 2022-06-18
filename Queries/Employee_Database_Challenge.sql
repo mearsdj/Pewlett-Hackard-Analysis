@@ -42,3 +42,26 @@ ORDER BY "Employee_Count" desc;
 -- PH-EmployeeDB=# \COPY  retiring_titles TO 'c:\users\derek\documents\bootcamp\module 7\Pewlett-Hackard-Analysis\Data\r
 -- etiring_titles.csv' with csv header
 -- COPY 7
+
+
+
+--write a query to create a Mentorship Eligibility table that holds the employees who are eligible
+--to participate in a mentorship program.
+
+SELECT DISTINCT ON (e.emp_no) e.emp_no,
+	e.first_name,
+	e.last_name,
+	e.birth_date,
+	de.from_date,
+	de.to_date,
+	t.title
+INTO mentorship_eligibility
+FROM employees e
+INNER JOIN dept_emp de
+ON (e.emp_no = de.emp_no)
+INNER JOIN titles t
+ON (e.emp_no = t.emp_no)
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+ORDER BY e.emp_no;
+
+
