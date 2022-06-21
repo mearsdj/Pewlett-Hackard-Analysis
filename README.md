@@ -9,7 +9,7 @@ The goal of this analyis is to determine, for the fictional  **Pewlett-Hackard C
   <table>
   <tr>
     <td>
-![Retirees by dept]('Queries/Roles_by_title_with_total.png')
+![Retirees by dept](Queries/Roles_by_title_with_total.png)
 </td>
   </tr>
   <?td>
