@@ -29,19 +29,4 @@ group by e.emp_no;
 
 ![Mentors by dept](Mentor_count_by_role.png)
 
-## Summary:
-Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
-Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-
-
-## Overview of the analysis:
-
-The purpose of the new analysis is well defined. (3 pt)
-Results:
-
-There is a bulleted list with four major points from the two analysis deliverables. (6 pt)
-Summary:
-
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
+- The company currently lacks mentors in management roles, so may need to expand eligibility criteria for mentors to ensure all roles are covered. 
