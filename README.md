@@ -27,6 +27,8 @@ group by e.emp_no;
 
 - We have identified 1,940 potential mentors from the retiring employee group.  The mentors are divided by current role as follows:
 
+![Mentors by dept](Mentor_count_by_role.png)
+
 ## Summary:
 Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
