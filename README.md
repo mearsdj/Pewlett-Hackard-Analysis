@@ -18,16 +18,16 @@ group by e.emp_no;
 ```
 
 
- The retirements are broken down by department as follows:
+- The retirements are broken down by department as follows:
 
-<table>
 ![Retirees by dept](Roles_by_title_with_total.png)
-</table>
 
 - 70 % of retiring employees, 50,842, are considered senior (26K senior engineers, 25K senior staff).
 
-Are there enought qualifie, ret ready ees in the departments to mentor the next gen of ph ee's
--  
+
+- We have identified 1,940 potential mentors from the retiring employee group.  The mentors are divided by current role as follows:
+
+![Mentors by dept](Mentor_count_by_role.png)
 
 ## Summary:
 Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
