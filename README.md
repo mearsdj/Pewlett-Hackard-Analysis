@@ -5,15 +5,28 @@
 The goal of this analyis is to determine, for the fictional  **Pewlett-Hackard Company**,  how many **retiring employees** the company would have in **each job role/title**, and subsequently how many retiring employees would be available for a **mentorship program**. 
 
 ## Results:
-- Pewlett-Packard faces a total of 72,458 employee retirements in the near term. The retirements are broken down by department as follows:
-  <table>
-  <tr>
-    <td>
-![Retirees by dept](Queries/Roles_by_title_with_total.png)
-  </td>
-  </tr>
-  </table>
-- Are there enought qualifie, ret ready ees in the departments to mentor the next gen of ph ee's
+- Pewlett-Packard faces a total of 72,458 employee retirements in the near term. This represents 30% of the existing work force (70,458/240,124).
+
+```
+Total employee count was calculated using the following query:
+select count(e.emp_no) as total
+from employees e
+INNER JOIN titles t
+	ON (e.emp_no = t.emp_no)
+where t.to_date = '9999-01-01'
+group by e.emp_no;
+```
+
+
+ The retirements are broken down by department as follows:
+
+<table>
+![Retirees by dept](Roles_by_title_with_total.png)
+</table>
+
+- 70 % of retiring employees, 50,842, are considered senior (26K senior engineers, 25K senior staff).
+
+Are there enought qualifie, ret ready ees in the departments to mentor the next gen of ph ee's
 -  
 
 ## Summary:
