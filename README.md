@@ -29,4 +29,5 @@ group by e.emp_no;
 
 ![Mentors by dept](Mentor_count_by_role.png)
 
-- The company currently lacks mentors in management roles, so may need to expand eligibility criteria for mentors to ensure all roles are covered. 
+- The company currently lacks mentors in management roles, so may need to expand eligibility criteria for mentors to ensure all roles are covered.
+- The significant number of senior employee retirements may also necessitate an expansion if the mentorship program. This is especially important if most or all of the retiring empployees will be replaced (given the limited number of trainees each mentor can support). 
