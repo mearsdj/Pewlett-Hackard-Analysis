@@ -25,7 +25,7 @@ group by e.emp_no;
 - 70 % of retiring employees, 50,842, are considered senior (26K senior engineers, 25K senior staff).
 
 
-- We have identified 1,940 potential mentors from the retiring employee group.  The mentors are divided by current role as follows:
+- We have identified 1,549 potential mentors from the retiring employee group.  The mentors are divided by current role as follows:
 
 ![Mentors by dept](Mentor_count_by_role.png)
 
